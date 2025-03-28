@@ -44,6 +44,20 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatLopin
+  name: fancy hat
+  description: A fancy hat for a fancy lad.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_lopin.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_lopin.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecurity
   name: security beret
   description: A stylish clothing option for security officers.

@@ -13,12 +13,21 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatCake
   name: cake hat
-  description: You put the cake on your head. Brilliant.
+  description: A hat shaped like a cake for a special individual!
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/cake.rsi
+    layers:
+    - state: icon
+    - state: icon-flame
+      shader: unshaded
   - type: Clothing
     sprite: Clothing/Head/Misc/cake.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-head
+      - state: equipped-head-flame
+        shader: unshaded
 
 - type: entity
   parent: ClothingHeadBase
