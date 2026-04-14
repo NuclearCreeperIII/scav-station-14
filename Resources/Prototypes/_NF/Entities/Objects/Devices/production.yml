@@ -620,8 +620,8 @@
 - type: entity
   id: MaterialReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: material reclaimer machine board
-  description: A machine printed circuit board for a material reclaimer.
+  name: recycler machine board
+  description: A machine printed circuit board for a recycler.
   components:
     - type: Sprite
       state: supply

@@ -338,8 +338,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: MaterialReclaimerFlatpack
-  name: material reclaimer flatpack
-  description: A flatpack used for constructing a material reclaimer.
+  name: recycler flatpack
+  description: A flatpack used for constructing a portable recycler.
   components:
   - type: Flatpack
     entity: MaterialReclaimer
