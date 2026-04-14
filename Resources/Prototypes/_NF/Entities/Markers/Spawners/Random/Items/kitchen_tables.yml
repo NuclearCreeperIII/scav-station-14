@@ -438,7 +438,7 @@
       children:
       - id: UniformPrinterFlatpack
       - id: ServiceTechFabFlatpack
-      - id: MaterialReclaimerFlatpack
+      #- id: MaterialReclaimerFlatpack # Scav
       - id: CutterMachineFlatpack
       - id: MinimoogInstrumentFlatpack
     # Uncommon

@@ -375,5 +375,5 @@
       weight: 0.01
       children:
       - id: MachineAnomalyGeneratorFlatpack
-      - id: MachineMiniAnomalyGeneratorFlatpack
+      #- id: MachineMiniAnomalyGeneratorFlatpack # Scav
       - id: MachineAnomalyVesselExperimentalFlatpack

@@ -128,7 +128,7 @@
       weight: 0.4
       children:
       - id: NFScrapProcessorCircuitboard
-      - id: MaterialReclaimerMachineCircuitboard
+      #- id: MaterialReclaimerMachineCircuitboard # Scav
       - id: TurboItemRechargerCircuitboard
       - id: GyroscopeMachineCircuitboard
       - id: MiniGravityGeneratorCircuitboard
@@ -395,7 +395,7 @@
       weight: 0.55
       children:
       - id: ScrapProcessorFlatpack
-      - id: MaterialReclaimerFlatpack
+      #- id: MaterialReclaimerFlatpack # Scav
       - id: SalvageTechfabNFFlatpack
       - id: CargoTechfabNFFlatpack
     - id: TelecomServerFlatpack
