@@ -3,6 +3,7 @@
   parent: MachineAnomalyGenerator
   name: mini anomaly generator
   description: The peak of pseudoscientific technology.
+  categories: [ HideSpawnMenu ] # Scav
   placement:
     mode: AlignTileAny
   components:

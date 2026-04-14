@@ -3,6 +3,7 @@
   id: MaterialReclaimer
   name: material reclaimer
   description: Cannot reclaim immaterial things, like motivation.
+  categories: [ HideSpawnMenu ] # Scav
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/material_reclaimer.rsi

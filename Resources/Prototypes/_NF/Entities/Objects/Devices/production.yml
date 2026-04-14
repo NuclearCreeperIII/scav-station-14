@@ -622,6 +622,7 @@
   parent: BaseMachineCircuitboard
   name: material reclaimer machine board
   description: A machine printed circuit board for a material reclaimer.
+  categories: [ HideSpawnMenu ] # Scav
   components:
     - type: Sprite
       state: supply

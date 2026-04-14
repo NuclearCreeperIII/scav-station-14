@@ -278,6 +278,7 @@
   id: MachineMiniAnomalyGeneratorFlatpack
   name: mini anomaly generator flatpack
   description: A flatpack used for constructing a mini anomaly generator.
+  categories: [ HideSpawnMenu ] # Scav
   components:
   - type: Flatpack
     entity: MachineMiniAnomalyGenerator
@@ -340,6 +341,7 @@
   id: MaterialReclaimerFlatpack
   name: material reclaimer flatpack
   description: A flatpack used for constructing a material reclaimer.
+  categories: [ HideSpawnMenu ] # Scav
   components:
   - type: Flatpack
     entity: MaterialReclaimer
