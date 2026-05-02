@@ -50,9 +50,9 @@
       Female: UnisexMoth
       Unsexed: UnisexMoth
   - type: MovementSpeedModifier
-    baseWeightlessAcceleration: 1.5 # Move around more easily in space.
-    baseWeightlessFriction: 1
-    baseWeightlessModifier: 1
+    baseWeightlessAcceleration: 1.1 # Move around more easily in space. # Scav: 1.5<1.1
+    #baseWeightlessFriction: 1 # Scav
+    #baseWeightlessModifier: 1 # Scav
   - type: Flammable
     damage:
       types:
@@ -74,6 +74,7 @@
       275: 0.8
       250: 0.7
   - type: FluffyWhitelist # Frontier
+  - type: MovementFloorCountsAsTouching # Scav
   - type: Sprite # sprite again because we want different layer ordering
     noRot: true
     drawdepth: Mobs
