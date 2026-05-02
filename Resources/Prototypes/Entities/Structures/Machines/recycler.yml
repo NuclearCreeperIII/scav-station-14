@@ -2,7 +2,7 @@
   id: Recycler
   parent: BaseMachinePowered
   name: industrial recycler
-  description: A large crushing machine used to recycle small items inefficiently. There are lights on the side.
+  description: A large crushing machine used to recycle things into their component materials. There are lights on the side.
   components:
   - type: AmbientSound
     enabled: false
