@@ -1,8 +1,8 @@
 - type: entity
   id: Recycler
   parent: BaseMachinePowered
-  name: recycler
-  description: A large crushing machine used to recycle small items inefficiently. There are lights on the side.
+  name: industrial recycler
+  description: A large crushing machine used to recycle things into their component materials. There are lights on the side.
   components:
   - type: AmbientSound
     enabled: false
@@ -26,9 +26,10 @@
           bounds: "-0.49,-0.49,0.49,0.49"
         hard: true
         mask:
-        - Impassable
+        - MachineMask
         layer:
         - Opaque
+        - MidImpassable
         - BulletImpassable
       conveyor:
         shape: !type:PolygonShape
